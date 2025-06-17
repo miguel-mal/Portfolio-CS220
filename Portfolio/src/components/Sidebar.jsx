@@ -4,10 +4,10 @@ function Sidebar() {
       <img 
         src="/path-to-your-profile.jpg" 
         alt="Profile" 
-        className="w-24 h-24 rounded-full object-cover mb-4"
+        className="w-24 h-24 rounded-full object-cover mb-4 z-50"
       />
       <div className="text-center space-y-2">
-        <p className="font-semibold">Jane Doe</p>
+        <p className="font-semibold">Miguel Maldonado</p>
         <p className="text-sm text-gray-600">jane@example.com</p>
         <p className="text-sm text-gray-600">(123) 456-7890</p>
       </div>
