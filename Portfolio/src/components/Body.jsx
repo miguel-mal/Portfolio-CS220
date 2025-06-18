@@ -2,24 +2,13 @@ import React from "react";
 
 function Body() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 bg-gray-800 text-white p-8 md:p-16">
       <section>
-        <h2 className="text-2xl font-bold mb-2">Education</h2>
-        <p>B.S. in Computer Science, University of Somewhere (2015 - 2019)</p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-bold mb-2">Experience</h2>
-        <p>Software Engineer at TechCorp (2020 - Present)</p>
-        <p>Intern at WebSolutions (2019 - 2020)</p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-bold mb-2">Projects</h2>
-        <ul className="list-disc pl-5">
-          <li>Portfolio Website - A personal site to showcase projects</li>
-          <li>Task Manager App - A productivity app built with React</li>
-        </ul>
+        <h1 className="text-2xl font-bold mb-2">Experience:</h1>
+        <p className="text-blue-400 leading-relaxed text-s sm:text-m md:text-l lg:text-xl">
+            PI Operations Specialist - Fidelity Investments (2023 - Present)</p>
+        <p className="text-blue-400 leading-relaxed text-s sm:text-m md:text-l lg:text-xl">
+            High Net Worth Service Associate - Fidelity Investments (2021 - 2023)</p>
       </section>
     </div>
   );

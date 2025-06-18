@@ -2,6 +2,7 @@ import './index.css'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Body from './components/Body'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Sidebar />
       <Body />
+      <Projects />
     </>
   )
 }

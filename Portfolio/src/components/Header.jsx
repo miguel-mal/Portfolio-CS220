@@ -1,25 +1,17 @@
 function Header() {
-    return (
-        <header className="bg-gray-900 text-white px-8 py-6 shadow-md flex flex-col md:flex-row md:items-center md:justify-between">
-            <h1 className="text-3xl font-extrabold tracking-tight mb-2 md:mb-0">
-                Miguel Maldonado Gutierrez
+  return (
+    <div className="space-y-8 bg-gray-900 text-white p-8 md:p-16">
+        <section>
+            <h1 className="text-2xl font-bold mb-2">
+                Education:
             </h1>
-            <nav>
-                <ul className="flex space-x-6 text-lg">
-                    <li>
-                        <a href="#about" className="hover:text-gray-300 transition-colors duration-200">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects" className="hover:text-gray-300 transition-colors duration-200">
-                            Projects
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    )
+            <p className="text-blue-400 leading-relaxed text-s sm:text-m md:text-l lg:text-xl"> 
+                B.A.S. in Software Engineering, Ensign College</p>
+            <p className="text-blue-400 leading-relaxed text-s sm:text-m md:text-l lg:text-xl"> 
+                A.A.S. in Integrated Studies, Ensign College</p>
+        </section>
+    </div>
+  );
 }
 
 export default Header;
